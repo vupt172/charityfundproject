@@ -1,0 +1,38 @@
+@charset "UTF-8";
+.create-form {
+	min-width: 700px;
+	background: #fff;
+	padding:12px;
+	box-shadow: 0 2px 5px 0 rgba(51, 62, 73, 0.1);
+}
+.form-group{
+display:flex;
+}
+.form-group .form-control{
+width:60%;	
+margin-left:5px;
+
+}
+.form-group .form-label {
+	width: 150px;
+}
+.form-message{
+	margin-left:5px;
+	color:red;
+	font-size:11px;
+}
+button{
+	padding:6px;
+	margin:6px;
+	min-width:120px;
+}
+.form-group select {
+	width: 200px;
+	margin-left: 5px;
+}
+
+@media only screen and (max-width: 720px){
+  .form-group{
+  flex-direction:column;
+  }
+}

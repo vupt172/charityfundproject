@@ -1,0 +1,25 @@
+@charset "UTF-8";
+.status-green, .status-gray, .status-red,.status-blue{
+	border-radius: 5px;
+	color: white;
+	padding: 5px 10px;
+	font-size: 12px;
+	min-width:70px;
+	display:inline-block;
+	text-align:center;
+}
+
+.status-green {
+	background: green;
+}
+
+.status-gray {
+	background: gray;
+}
+
+.status-red {
+	background: red;
+}
+.status-blue{
+background:#618fc9;
+}
